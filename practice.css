@@ -1,0 +1,97 @@
+
+.img-cl{
+  width: 80px;
+  height: 50px;
+  margin-top: 5%;
+  margin-left: 40%;
+}
+.head{
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+  background-color: rebeccapurple;
+}
+.nav-1{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  
+  
+}
+.nav{
+  width: 50%;
+  background-color: rebeccapurple;
+
+
+}
+li{
+  list-style-type: none;
+}
+a{
+  text-decoration: none;
+  color:red
+}
+.img-1{
+height: 20px;
+}
+.Body1{
+  position: relative;
+  width: 300px;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.Body1 input {
+  width: 100%;
+  padding-right: 30px; /* Ensure there's space for the search icon */
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  height: 25px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.img1 {
+  position: absolute;
+  right: 10px;
+  top: 60%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+img {
+  width: 20px;
+  height: 20px;
+}
+.container{
+  height: 280px;
+  width: 150px;
+ background-color: rgba(188, 178, 167, 0.689);
+  padding: 2px;
+  
+}
+.res-img{
+  height: 90px;
+  width: 100%;
+  /* padding: 5px; */
+  margin: auto;
+}
+*{padding: 0px;
+margin: 0px;}
+.container:hover{
+  background-color: lightcyan;
+  cursor: pointer;
+  border: 1px solid black;
+}
+.restaurant-card{
+  display: flex;
+  flex-wrap: wrap;
+ padding-left: 100px;
+ gap: 10px;
+ word-wrap: break-word; /* Ensure long text wraps to the next line */
+ overflow: hidden;
+}
+body{
+  background-color: rgb(242, 240, 240);
+}
